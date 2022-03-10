@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    background-color:lightsteelblue;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+a{
+    margin:22px 10px ;
+    font-size: 22px;
+    color: antiquewhite;
+    span{
+        color: gray;
+    }
+}
+ul{
+    
+    all:unset;
+    display: flex;
+
+    flex-direction: row;
+justify-content: space-between;
+  li{
+      all: unset;
+    margin-right:6px;
+   
+       a{
+           font-size:18px;
+        color: gray;
+       }
+  }
+}
